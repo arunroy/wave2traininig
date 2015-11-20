@@ -1,0 +1,13 @@
+body{
+  background-color:#e3e3e3;
+}
+
+.wrap{
+  margin: auto;background-color: #e3e3e3;
+  width: 500px;
+}
+
+blockquote{
+  border: 1px solid white;text-align: center;
+  margin-left: 0;
+}

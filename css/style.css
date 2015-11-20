@@ -1,0 +1,19 @@
+a {
+  color:red; text-decoration:underline;
+}
+div{
+  color:black; font-family:inherit; text-emphasis: monospace; margin:auto; background: rgb(255, 145, 0);text-align: left;
+  height:auto; width: auto;
+}
+
+dt{
+  color:white; text-decoration:none ; font-weight: bold; margin-left: 25px;
+}
+
+li:nth-child(2){
+  color: orange;
+}
+
+.emphasisedlist{
+  color: green;
+}
