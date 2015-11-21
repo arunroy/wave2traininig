@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+  padding: 0px;
+  font-family: "Arial", Verdana, sans-serif;
+  }
+.wrap{
+  background-color: #e6ac27;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+
+}
+.content{
+  background-color: #eac117;
+  float: left;
+  width: 80%;
+}
+.sidebar{
+  background-color:  #fdac00;
+  float: right;
+  width: 20%;
+}
+.text{
+  padding:10px;
+  font-family: "Arial", Verdana, serif;
+}
+
+.sidebarcontent{
+  padding:10px;
+}
+aside ul{
+  padding: 10px;
+  list-style:none;
+}
+text,aside{
+  height: auto;
+}
+h1{
+  padding: 10px;
+}
