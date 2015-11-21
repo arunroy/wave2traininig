@@ -23,7 +23,7 @@ body{
 }
 .text{
   padding:10px;
-  font-family: "Arial", Verdana, serif;
+  font-family: sans-serif;
 }
 
 .sidebarcontent{
@@ -38,4 +38,9 @@ text,aside{
 }
 h1{
   padding: 10px;
+}
+footer{
+  padding:10px;
+  text-align: center;
+  font-size: 10px;
 }

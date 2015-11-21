@@ -1,0 +1,74 @@
+body{
+  background-color: white;
+  padding: 0px;
+  font-family: "Arial", Verdana, sans-serif;
+  }
+.wrap{
+  background-color: #e6ac27;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-image: url("../img/turboanim.gif");
+  overflow: hidden;
+}
+.content{
+  background-color: #eac117;
+  float: left;
+  width: 80%;
+}
+.sidebar{
+  background-color:  #fdac00;
+  float: right;
+  width: 20%;
+}
+.text{
+  padding:10px;
+  font-family: sans-serif;
+}
+
+.sidebarcontent{
+  padding:10px;
+}
+aside ul{
+  padding: 10px;
+  list-style:none;
+}
+text,aside{
+  height: auto;
+}
+h1{
+  padding: 10px;
+  text-align: center;
+  text-shadow: 4px 2px 4px grey;
+  text-shadow: 4px 4px 4px #aaa;
+  font-size: 100px;
+  font-family: 'Lobster', serif;
+  color:white;
+}
+footer{
+  padding:10px;
+  text-align: center;
+  font-size: 10px;
+}
+.text ul{
+  padding:10px;
+  list-style: none;
+}
+.text li{
+  display: inline;
+  padding-right:10px;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+.text a{
+    color: #404040;
+    font-weight: bolder;
+    text-indent: 5px;
+    text-transform: uppercase;
+}
+.text a:hover{
+    color:red;
+}
