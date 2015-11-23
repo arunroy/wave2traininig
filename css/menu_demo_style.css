@@ -4,20 +4,24 @@ body{
   font-family: "Arial", Verdana, sans-serif;
   }
 .wrap{
-  background-color: #e6ac27;
+  background-color: #0F0F0F;
   width: 80%;
   height: auto;
   margin: auto;
-  background-image: url("../img/turboanim.gif");
   overflow: hidden;
 }
-.content{
-  background-color: #eac117;
-  float: left;
+.header{
+  background-image: url("../img/turboanim.gif");
+  width: 615px;
+  height: 150px;
+  margin: auto;
+}
+.menu{
+  background-color: #323232;
   width: 80%;
 }
 .sidebar{
-  background-color:  #fdac00;
+  background-color:  #323232;
   float: right;
   width: 20%;
 }
@@ -39,8 +43,8 @@ text,aside{
 h1{
   padding: 10px;
   text-align: center;
-  text-shadow: 4px 2px 4px grey;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 8px 10px 4px red;
+  text-shadow: 4px 4px 4px red;
   font-size: 100px;
   font-family: 'Lobster', serif;
   color:white;
@@ -64,10 +68,16 @@ a{
 
 }
 .text a{
-    color: #404040;
+    color: white;
     font-weight: bolder;
     text-indent: 5px;
     text-transform: uppercase;
+    -webkit-transition: all 0.5s ease-IN; /*Safari & Chrome*/
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in; /* Firefox 4 */
+    -o-transition: all 0.3s ease-in; /* Opera */
+    text-decoration:none;
+    color:white;
 }
 .text a:hover{
     color:red;
