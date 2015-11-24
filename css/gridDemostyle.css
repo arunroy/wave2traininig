@@ -19,12 +19,12 @@ body{
   /*#7f7f7f;*/
 }
 .title{
-  background: linear-gradient(#595959,#000000,#262626);
-    /*width: 600px;  #262626;*/
+  background: linear-gradient(#262626,#000000,#262626);
+    /*width: 600px;  #262626;#595959,*/
   font-family: sans-if;
   font-size: 75px;
   margin: auto;
-  font-family: Lobster,sans-serif;
+  font-family: Play,sans-serif;
   color:#F4EFEF;
   text-align: center;
 }
@@ -38,6 +38,21 @@ body{
 }
 .title p:hover{
   text-shadow: 4px 2px 5px #c3bfbf;
+}
+.title img{
+  width: 300px;
+  height: 60px;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+}
+#logo:hover{
+
+}
+#bgtransparent{
+  width: 190px;
+  height: 130px;
 }
 ul{
   display: inline;
@@ -187,4 +202,35 @@ ul li{
 .newbike{
   width: 300px;
   height: 200px;
+}
+.newbikeherovideo{
+  width: 650px;
+  height: 400px;
+  margin: auto;
+  padding: 5px 150px;
+}
+.latestbikevideogrid{
+padding: 5px 0px;
+}
+.latestbikecontainer{
+
+}
+.latestbikecontainer .bikedisplay{
+  background-image: url("../img/xdiavel.jpg");
+  height:120px;
+  color: white;
+  font-family: Play,sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.latestbikecontainer .bikedisplay p{
+  float:right;
+  padding: 90px 30px 0px;
+}
+.latestbikecontainer .bikedisplay:hover{
+  background-image: url("../img/xdiavel_hover.jpg");
+  transition: opacity 0.2s linear;
+  transition-duration: 0.9s;
+  transition-delay: 0.9s;
 }
